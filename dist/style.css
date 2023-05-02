@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /* border: solid 1px red; */
+}
+
+body{
+    background-image: url(../src/imgs/Background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+header {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.search-container {
+    display: inline-block;
+    
+}
+
+input[type="search"] {
+    background-color: rgba(116, 116, 116, 0.8); 
+    color: rgba(0, 19, 42, 0.8);
+    padding: 6px 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+input[type="search"]:focus {
+    border: 1px solid #007BFF;
+}
+
+button {
+    padding: 6px 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #007BFF;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #0056b3;
+}
+
+.forecast-now{
+    color: white;
+    margin-top: 220px;
+    margin-left: 150px;
+}
+
+.location{
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.condition, .wind, .humidity, .feels-like, .local-time{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.deegrees{
+    font-weight: 600;
+    font-size: 30px;
+}

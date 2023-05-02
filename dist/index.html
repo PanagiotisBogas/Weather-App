@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="../src/imgs/favicon.png">
+    <title>Weather app</title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="search-container">
+            <form action="/search" method="get" class="search-form">
+                <input type="search" name="location-input" class="location-input" placeholder="Search...">
+                <button type="submit" class="search-button" >Search</button>
+            </form>
+        </div>
+    </header>
+
+            <div class="forecast-now">
+                <div class="location"></div>
+                <div class="condition"></div>
+                <img class="condition-icon" src="" alt="" >
+                <div class="feels-like"></div>
+                <div class="wind"></div>
+                <div class="humidity"></div>                
+            </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
